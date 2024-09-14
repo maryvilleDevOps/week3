@@ -73,7 +73,7 @@
                 ],
 		"Tags": [
 		    {
-			"Key" : "Name",
+			"Key": "Name",
 			"Value": "WebServer"
 		    },
 		    {
@@ -90,7 +90,7 @@
                             [
                                 "#!/bin/bash",
                                 "sudo yum install --enablerepo=epel -y nodejs",
-                                "wget https://github.com/vico1405/maryvilleDevOpsWeek3.git -O /home/ec2-user/helloworld.js",
+                                "wget https://github.com/maryvilleDevOps/week3.git -O /home/ec2-user/helloworld.js",
                                 "wget http://bit.ly/2vVvT18 -O /etc/init/helloworld.conf",
                                 "start helloworld"
                             ]
